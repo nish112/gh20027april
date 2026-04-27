@@ -12,6 +12,6 @@ jobs:
 
       # We call our local custom action using its folder path
       - name: Run my Custom Joker
-        uses: ./.github/actions/joke-action
+        uses: ./.github/actions/joke-actions
         with:
           audience: "GH-200 Participants"
